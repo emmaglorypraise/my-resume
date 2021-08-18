@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    margin: 50px 0px;
+}
+.section{
+    margin: 50px 0px;
+}
+.section-title{
+    color: #f4592f;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    border-color: #f4592f;
+    height: 5px;
+    width: 100%;
+}
+.card-title{
+    background-color: #f4592f;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.details-title{
+    /* color: #f4592f; */
+    text-align: left;
+}
+.details-title a{
+    color: #000000;
+}
+.details-title i{
+    color: #f4592f;
+    margin-right: 5px;
+}
+.bold-title{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #f4592f;
+}
+.semi-bold-title{
+    font-weight: 400;
+    font-size: 24px;
+}
+.date{
+    color: #f4592f;
+}
+ul {
+    list-style: none; 
+}
+  
+ul li::before {
+    content: "\2022";  
+    color: #f4592f; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+.link{
+    color: #000000;
+}
+.link :hover{
+    color: #000000;
+}
